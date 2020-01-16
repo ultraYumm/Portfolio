@@ -130,8 +130,6 @@ nav {
   border: 1px solid rgba(140, 108, 126, 1);
 }
 
-
-
 footer {
   height: 65px;
 }
@@ -236,7 +234,7 @@ h3 {
 }
 
 section {
-  min-height: 200px;
+  min-height: 370px;
   padding: 4%;
 }
 
@@ -312,13 +310,21 @@ p {
 
 }
 
- h4 {
+h4 {
   font-size: 16px;
   text-align: center;
   font-family: 'Montebello-Sans', truetype;
   font-weight: lighter;
   line-height: 1.7;
  }
+
+.subheader {
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 0;
+
+}
 
 .container {
   display: inline-block;
@@ -344,7 +350,7 @@ p {
   border: 2px solid rgba(242, 76, 61, 1);
 }
 
-.title {
+.title, .title2 {
   max-width: 100%;
   font-size: 12px;
   line-height: 1;
@@ -352,6 +358,10 @@ p {
   font-weight: 900;
   text-align: center;
   padding-bottom: 20px;
+}
+
+.title2 {
+  padding-bottom: -100px;
 }
 
 .details {
@@ -378,7 +388,7 @@ p {
   display: inline-block;
   border-radius: 2%;
   height: 300px;
-  width: 33%;
+  width: 50%;
   font-size: 10px;
   color: white;
   text-align:center;
@@ -391,7 +401,7 @@ p {
   padding-top: 5px;
   font-weight: 900;
   text-align: center;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
 }
 
 .basic{
@@ -664,7 +674,7 @@ h4 {
   height: 1000px;
 }
 
-  .cuisine {
+.cuisine {
   height: 1000px;
 } 
 
