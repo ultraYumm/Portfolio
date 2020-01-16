@@ -393,7 +393,11 @@ h4 {
   color: white;
   text-align:center;
 }
- 
+
+.ultraYumm {
+  width: 90%;
+}
+
 .title2 {
   max-width: 100%;
   font-size: 12px;
